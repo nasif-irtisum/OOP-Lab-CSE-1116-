@@ -1,4 +1,4 @@
-import java.awt.*;
+
 import java.util.Scanner;
 
 public class GetInput {
@@ -11,10 +11,11 @@ public class GetInput {
         System.out.print("Enter Short Value: ");
         short srt = sc.nextShort();
 
-        System.out.print("Enter Short Value: ");
+        System.out.print("Enter Integer Value: ");
+        int value = sc.nextInt();
 
         System.out.println("Byte Value: "+byt);
         System.out.println("Short Value: "+srt);
-        System.out.println("Byte Value: "+byt);
+        System.out.println("Integer Value: "+value);
     }
 }
